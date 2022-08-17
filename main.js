@@ -31,7 +31,16 @@ function convert() {
     let num1 = Math.round(num);
     //no flot, only Integer
     if (num != num1 && unit1 != "hex") {
-        alert("Enter roun off value");
+        
+        let check = num1 - num;
+
+        if(check >= 0 || check <=0){
+            alert("Enter Round Off Value");
+
+        }
+        else{
+            alert("Enter Valid Input")
+        }
         location.reload();
         return;
     }
