@@ -269,27 +269,13 @@ function toChange(){
 
 }
 
-// let element = document.querySelector('.input');
-// element.addEventListener('keypress', (e) => {
-    
-//     if (e.key === 'Enter'){
-//        console.log("neel");  
-//     //    convert();
-//     }
-// })
+// Enter Function
+const enter = document.getElementById("x");
 
-// document.body.addEventListener('keypress',(e)=>{
-//     if(e.key == 'Enter'){
-//         //console.log("neel");
-//         convert();
-//     }
-// })
+enter.addEventListener('keypress', (e) =>{
+    //console.log(e);
+    if(e.key == 'Enter'){
+        convert();
+    }
+})
 
-// const input = document.getElementById('x');
-// //console.log(input.value);
-
-// input.addEventListener('keyup',(e) => {
-//     if(e.keyCode === 13){
-//         convert();
-//     }
-// })
