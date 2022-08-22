@@ -1,3 +1,4 @@
+"use strict";
 
 function swap() {
     var unit1 = document.getElementById("unit1").value;
